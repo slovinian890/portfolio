@@ -2,33 +2,28 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  
-  <!-- SEO Meta Tags -->
-  <title>Filip Sinjur - Software Developer | Security, UI/UX & Automation Expert</title>
-  <meta name="description" content="Filip Sinjur - Passionate software developer specializing in security, UI/UX design, and automation scripting. Co-founder of Noctrify. Explore my terminal portfolio and projects.">
-  <meta name="keywords" content="Filip Sinjur, software developer, security expert, UI/UX designer, automation scripting, JavaScript, Python, SwiftUI, web developer, portfolio">
-  <meta name="author" content="Filip Sinjur">
-  <meta name="robots" content="index, follow">
-  
-  <!-- Open Graph Meta Tags -->
-  <meta property="og:title" content="Filip Sinjur - Software Developer | Security, UI/UX & Automation Expert">
-  <meta property="og:description" content="Passionate software developer specializing in security, UI/UX design, and automation scripting. Co-founder of Noctrify. Explore my terminal portfolio and projects.">
-  <meta property="og:type" content="website">
-  <meta property="og:url" content="https://filipsinjur.com">
-  <meta property="og:site_name" content="Filip Sinjur Portfolio">
-  <meta property="og:locale" content="en_US">
-  
-  <!-- Twitter Card Meta Tags -->
-  <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Filip Sinjur - Software Developer | Security, UI/UX & Automation Expert">
-  <meta name="twitter:description" content="Passionate software developer specializing in security, UI/UX design, and automation scripting. Co-founder of Noctrify.">
-  <meta name="twitter:creator" content="@filipsinjur">
-  
-  <!-- Canonical URL -->
-  <link rel="canonical" href="https://filipsinjur.com">
-  
-  <!-- Structured Data (JSON-LD) -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Filip Sinjur - Software Developer Portfolio</title>
+  <meta name="description" content="Terminal-style portfolio for Filip Sinjur, a software developer focused on security, UI/UX, automation, and practical web experiences." />
+  <meta name="keywords" content="Filip Sinjur, software developer, security, UI/UX, automation, JavaScript, Python, SwiftUI, portfolio" />
+  <meta name="author" content="Filip Sinjur" />
+  <meta name="robots" content="index, follow" />
+
+  <meta property="og:title" content="Filip Sinjur - Software Developer Portfolio" />
+  <meta property="og:description" content="A terminal-inspired portfolio with projects, experience, skills, and contact details." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://filipsinjur.com" />
+  <meta property="og:site_name" content="Filip Sinjur Portfolio" />
+  <meta property="og:locale" content="en_US" />
+
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Filip Sinjur - Software Developer Portfolio" />
+  <meta name="twitter:description" content="Security-minded developer building useful, polished, terminal-inspired web experiences." />
+
+  <link rel="canonical" href="https://filipsinjur.com" />
+  <link rel="stylesheet" href="style.css" />
+
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
@@ -36,132 +31,276 @@
     "name": "Filip Sinjur",
     "url": "https://filipsinjur.com",
     "jobTitle": "Software Developer",
-    "description": "Passionate software developer focused on security, UI/UX design, and automation scripting",
+    "description": "Software developer focused on security, UI/UX, and automation.",
     "knowsAbout": ["JavaScript", "Python", "SwiftUI", "Security", "UI/UX Design", "Automation"],
     "sameAs": [
       "https://github.com/filip90",
       "https://linkedin.com/in/filipsinjur",
       "https://noctrify.com"
-    ],
-    "worksFor": {
-      "@type": "Organization",
-      "name": "Noctrify",
-      "url": "https://noctrify.com"
-    }
+    ]
   }
   </script>
-  
-  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <div class="container">
-    <!-- Terminal Section (2/3 width) -->
-    <div class="terminal-section">
-      <div id="terminal">
-        <div id="output">
-<pre class="ascii-title" aria-hidden="true">
-    ______ __ __ __           ________  $        $            
-    |  _   |__|  |__.-----.   |   _   |__.-----|__.--.--.----.
-    |  1___|  |  |  |  _  |   |   1___|  |     |  |  |  |   _|
-    |  __) |__|__|__|   __|   |____   |__|__|__|  |_____|__|  
-    |  |            |__|      |   1   |       |___|           
-    |  |                      |       |                       
-    `--'                      `-------'                       
-                                                               
-</pre>
-<br>
-
-<h1 style="display: none;">Filip Sinjur - Software Developer Portfolio</h1>
-Welcome to my terminal portfolio. (Version 1.0.0)  
-----  
-This project's source code can be found on  
-<a href="https://github.com/slovinian890" target="_blank" rel="noopener" aria-label="View Filip Sinjur's GitHub repository">GitHub repo</a>  
-----  
-Type <span class="cmd">help</span> to see available commands.
+  <div class="page-shell">
+    <main class="terminal-section" aria-label="Portfolio tabs">
+      <section class="terminal-window">
+        <div class="terminal-topbar" aria-hidden="true">
+          <div class="window-controls">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+          <div class="terminal-title">filip@portfolio:/tabs</div>
+          <div class="terminal-clock" id="terminalClock">--:--</div>
         </div>
 
-        <div class="input-line">
-          <span class="prompt">filip@sinjur:~$</span>
-          <input type="text" id="commandInput" autofocus autocomplete="off" placeholder="Type a command..." aria-label="Terminal command input" />
-        </div>
-      </div>
-    </div>
-
-    <!-- Profile Section (1/3 width) -->
-    <div class="profile-section">
-      <div class="profile-content">
-        <div class="profile-picture">
-          <pre>
-                                            .:-=++++=-:.                                            
-                                     .+%#░▒█████████████▒@&+:                                       
-                                  .*░█████████████▓▒░▒▒█▓██▒▒▒%:                                    
-                                .*▓█████████████▒█▓@&*%&&&▓█░@██+                                   
-                              .%▓█████████████░&*+*&▓@&░█░▓██▓███:                                  
-                             +▓██████████████▒░▒█@▓▓▓████████████▓░&+.                              
-                            %██████████▓░@@@@██████████████████████▓██&:                            
-                         =&▒██████████▓████████████████████████████%#███*                           
-                        +█████████████████████████████████▓▒░@░███▒#░████%                          
-                        -▒█████████████████▒▒▒░░##&%+::...     .&█▒%@█████+                         
-                      -.%█████████████@%=.                       &████████░                         
-                      -▒████████████#:                           :████████#                         
-                       .-▓█████████@                              ▒███████+                         
-                        -▓█████████▓:                             ░███████+                         
-                         ░██████████-                             *██████▒.                         
-                         :▓████████@                               =▓████-                          
-                          +████░██▓+%#&*+-:..     ..    .:-+*&@&+:  +████.                          
-                          :@██▓░████░@▒█████▓▓#   :=.#░▓█████▒#&@▒+ -███#:                          
-                         %████▒▒████░###▓██████@:  =@███▓▓▒░&*=-  . -██*+&=                         
-                         &█▒██░▒█▒▓███*#@&%*▒░██+   :&#░%+▒##=▒#-   :█@=#@*                         
-                         *░░██@▓▓:+#▒█&+=-: .:░█=     ..----.::.    .█▒==&-                         
-                         .&▓█▓░░▓-   .--:.   :-▒-         .:.       :▓@▒.*                          
-                          +#▒▓▓%█@           %%█=                   **&+*:                          
-                           %@#█*▒█&.         *█▒:                   &-.*-                           
-                            *▒█#*██@:       -&#+.     ..            &.+=                            
-                             .-%░▓███*     -▓▒▓█▒%**##+:            &-.                             
-                               &&█████&    %█████▒#=:=:            :*                               
-                               *&██▓███=    :+**- +                ==                               
-                               :&███████: . .-*&#**&&*-.   .       %.                               
-                                +#████▓▓ .**&&**%&&%**%&++:   .   ==                                
-                                 %░▒██░█&.  :%%++===+-:.    ..  .%+                                 
-                                 %@▓░▒███▓+  .*#▒░░@%.       ..%%+-                                 
-                                 %#██▓░▒██#:.              ..*░= +-                                 
-                                 %#████▓░█#:..   ..       :#▒&.  +-                                 
-                                 *&██████▓██@%-..=░....-*░▓@-    +-                                 
-                                 *%██████████████████████░=      +-                                 
-                                -▒&████████████████████@=        -%:                                
-                             .=@██&█████████████████░%:          ---+=                              
-                           .%▒████&██████████████▓&:             :-  :+=                            
-                            =▒███▒#█████████████▒-                                                  
-                             .=@█▓████████@*=#▒#=.                                                  
-                                .=*&#@░░░░%                                                         
+        <div class="terminal-content">
+          <pre class="ascii-title" aria-hidden="true">
+  ______ _ _ _        _____ _       _
+ |  ____(_) (_)      / ____(_)     (_)
+ | |__   _| |_ _ __ | (___  _ _ __  _ _   _ _ __
+ |  __| | | | | '_ \ \___ \| | '_ \| | | | | '__|
+ | |    | | | | |_) |____) | | | | | | |_| | |
+ |_|    |_|_|_| .__/|_____/|_|_| |_|_|\__,_|_|
+              | |
+              |_|
           </pre>
+
+          <div class="intro-card">
+            <p><span class="muted">system</span> Portfolio loaded. No command line needed.</p>
+            <p>Click through the tabs to see projects, skills, experience, socials, and contact details.</p>
+          </div>
+
+          <nav class="tab-bar" role="tablist" aria-label="Portfolio navigation">
+            <button type="button" class="tab-button is-active" data-tab="about">About</button>
+            <button type="button" class="tab-button" data-tab="projects">Projects</button>
+            <button type="button" class="tab-button" data-tab="skills">Skills</button>
+            <button type="button" class="tab-button" data-tab="experience">Experience</button>
+            <button type="button" class="tab-button" data-tab="socials">Socials</button>
+            <button type="button" class="tab-button" data-tab="contact">Contact</button>
+          </nav>
+
+          <section class="tab-panel is-active" id="about" aria-labelledby="tab-about">
+            <div class="panel-heading">
+              <p class="terminal-label">/about</p>
+              <h2>Security-minded developer with a product eye.</h2>
+            </div>
+            <p>
+              I build practical digital products with clean interfaces, useful automation,
+              and careful attention to how people actually use software.
+            </p>
+            <div class="metric-grid">
+              <div>
+                <strong>Focus</strong>
+                <span>Security + UI/UX</span>
+              </div>
+              <div>
+                <strong>Stack</strong>
+                <span>JavaScript / Python / SwiftUI</span>
+              </div>
+              <div>
+                <strong>Style</strong>
+                <span>Terminal-inspired, sharp, usable</span>
+              </div>
+            </div>
+          </section>
+
+          <section class="tab-panel" id="projects" aria-labelledby="tab-projects">
+            <div class="panel-heading">
+              <p class="terminal-label">/projects</p>
+              <h2>Selected work</h2>
+            </div>
+            <div class="project-grid">
+              <article class="project-card">
+                <span>01</span>
+                <h3>Noctrify</h3>
+                <p>Co-founder work around product direction, web presence, and user-facing flow.</p>
+                <a href="https://noctrify.com" target="_blank" rel="noopener">Visit project</a>
+              </article>
+              <article class="project-card">
+                <span>02</span>
+                <h3>Runner iOS App</h3>
+                <p>SwiftUI concept for a cleaner running companion experience and mobile interaction flow.</p>
+                <button type="button" class="mini-action" data-tab="skills">View stack</button>
+              </article>
+              <article class="project-card">
+                <span>03</span>
+                <h3>Terminal Portfolio</h3>
+                <p>Responsive personal portfolio built around a terminal visual language and click-first navigation.</p>
+                <button type="button" class="mini-action" data-tab="contact">Contact me</button>
+              </article>
+              <article class="project-card">
+                <span>04</span>
+                <h3>Automation Labs</h3>
+                <p>Python scripts and small tools for repeatable technical workflows and security experiments.</p>
+                <button type="button" class="mini-action" data-tab="experience">See experience</button>
+              </article>
+            </div>
+          </section>
+
+          <section class="tab-panel" id="skills" aria-labelledby="tab-skills">
+            <div class="panel-heading">
+              <p class="terminal-label">/skills</p>
+              <h2>Things I work with</h2>
+            </div>
+            <div class="skill-board">
+              <div>
+                <h3>Code</h3>
+                <p>JavaScript, Python, SwiftUI, HTML, CSS</p>
+              </div>
+              <div>
+                <h3>Product</h3>
+                <p>UI/UX, accessibility basics, responsive interfaces, UX writing</p>
+              </div>
+              <div>
+                <h3>Security</h3>
+                <p>Security-aware development, testing mindset, safer workflows</p>
+              </div>
+              <div>
+                <h3>Automation</h3>
+                <p>Small scripts, developer tools, repeatable command-line workflows</p>
+              </div>
+            </div>
+          </section>
+
+          <section class="tab-panel" id="experience" aria-labelledby="tab-experience">
+            <div class="panel-heading">
+              <p class="terminal-label">/experience</p>
+              <h2>Professional snapshot</h2>
+            </div>
+            <div class="timeline">
+              <div>
+                <span>Now</span>
+                <strong>Co-founder, Noctrify</strong>
+                <p>Building product direction, web presence, and user-facing experiences.</p>
+              </div>
+              <div>
+                <span>Projects</span>
+                <strong>Independent software builds</strong>
+                <p>Terminal-style web interfaces, SwiftUI app concepts, and Python automation.</p>
+              </div>
+              <div>
+                <span>Core</span>
+                <strong>Security + usability</strong>
+                <p>Keeping interfaces clear while thinking carefully about reliability and risk.</p>
+              </div>
+            </div>
+          </section>
+
+          <section class="tab-panel" id="socials" aria-labelledby="tab-socials">
+            <div class="panel-heading">
+              <p class="terminal-label">/socials</p>
+              <h2>Find me online</h2>
+            </div>
+            <div class="social-grid">
+              <a href="https://github.com/filip90" target="_blank" rel="noopener">
+                <strong>GitHub</strong>
+                <span>Code and experiments</span>
+              </a>
+              <a href="https://linkedin.com/in/filipsinjur" target="_blank" rel="noopener">
+                <strong>LinkedIn</strong>
+                <span>Professional profile</span>
+              </a>
+              <a href="https://noctrify.com" target="_blank" rel="noopener">
+                <strong>Noctrify</strong>
+                <span>Co-founder project</span>
+              </a>
+            </div>
+          </section>
+
+          <section class="tab-panel" id="contact" aria-labelledby="tab-contact">
+            <div class="panel-heading">
+              <p class="terminal-label">/contact</p>
+              <h2>Let us build something useful.</h2>
+            </div>
+            <p>
+              Open to interesting software collaborations, web/product builds,
+              security-minded tooling, and automation work.
+            </p>
+            <div class="contact-actions">
+              <a href="https://linkedin.com/in/filipsinjur" target="_blank" rel="noopener">Contact on LinkedIn</a>
+              <a href="https://github.com/filip90" target="_blank" rel="noopener">View GitHub</a>
+              <button type="button" id="copyLink">Copy LinkedIn Link</button>
+            </div>
+            <p class="copy-status" id="copyStatus" aria-live="polite"></p>
+          </section>
         </div>
-        <div class="profile-info">
-          <div class="signature" aria-hidden="true">
+
+        <div class="terminal-status" aria-label="Portfolio status">
+          <span><strong>Status:</strong> open to interesting work</span>
+          <span><strong>Interface:</strong> click tabs</span>
+          <button type="button" id="themeToggle">Toggle contrast</button>
+        </div>
+      </section>
+    </main>
+
+    <aside class="profile-section" aria-label="Portfolio profile summary">
+      <div class="profile-card">
+        <div class="profile-header">
+          <div class="avatar" aria-hidden="true">
             <pre>
- ███████╗██╗██╗     ██╗██████╗     ███████╗██╗███╗   ██╗      ██╗██╗   ██╗██████╗ 
- ██╔════╝██║██║     ██║██╔══██╗    ██╔════╝██║████╗  ██║      ██║██║   ██║██╔  ██╗
- █████╗  ██║██║     ██║██████╔╝    ███████╗██║██╔██╗ ██║      ██║██║   ██║██████╔╝
- ██╔══╝  ██║██║     ██║██╔═══╝     ╚════██║██║██║╚██╗██║      ██║██║   ██║██╔ ██╗
-██║     ██║███████╗██║██║         ███████║██║██║ ╚████║ ██████╔╝╚██████╔╝██║  ██║
-╚═╝     ╚═╝╚══════╝╚═╝╚═╝         ╚══════╝╚═╝╚═╝  ╚═══╝ ╚═════╝  ╚═════╝ ╚═╝  ╚═╝
+   +----------------+
+   |  F S           |
+   |  &lt;code/&gt;       |
+   |  secure.build  |
+   +----------------+
             </pre>
           </div>
-        <p class="bio">
-            Hi! I'm a passionate developer focused on <strong>security</strong>, <strong>UI/UX design</strong>, and <strong>automation scripting</strong>. 
-            I love creating innovative solutions and exploring new technologies. I'm also a co-founder of <a href="https://noctrify.com" target="_blank" rel="noopener" aria-label="Visit Noctrify website">noctrify.com</a>.
-          </p>
-          <div class="skills">
-            <div class="skill-symbol" data-tooltip="JavaScript">JS</div>
-            <div class="skill-symbol" data-tooltip="Python">🐍</div>
-            <div class="skill-symbol" data-tooltip="SwiftUI">📱</div>
-            <div class="skill-symbol" data-tooltip="Security">🔒</div>
-            <div class="skill-symbol" data-tooltip="UI/UX">🎨</div>
-            <div class="skill-symbol" data-tooltip="Terminal">💻</div>
+          <div>
+            <p class="eyebrow">Software Developer</p>
+            <h1>Filip Sinjur</h1>
+            <p class="location">Security-minded builder in Europe</p>
           </div>
         </div>
+
+        <p class="bio">
+          Practical software, polished interfaces, security-aware thinking,
+          and small automations that save real time.
+        </p>
+
+        <div class="signal-row" aria-label="Professional highlights">
+          <div>
+            <strong>Focus</strong>
+            <span>Security + UI/UX</span>
+          </div>
+          <div>
+            <strong>Stack</strong>
+            <span>JS / Python / SwiftUI</span>
+          </div>
+          <div>
+            <strong>Builds</strong>
+            <span>Web, apps, scripts</span>
+          </div>
+        </div>
+
+        <section class="panel">
+          <div class="panel-title">
+            <span class="panel-dot"></span>
+            Quick Links
+          </div>
+          <div class="profile-actions">
+            <a href="https://github.com/filip90" target="_blank" rel="noopener">GitHub</a>
+            <a href="https://linkedin.com/in/filipsinjur" target="_blank" rel="noopener">LinkedIn</a>
+            <a href="https://noctrify.com" target="_blank" rel="noopener">Noctrify</a>
+          </div>
+        </section>
+
+        <section class="panel compact-panel">
+          <div class="panel-title">
+            <span class="panel-dot"></span>
+            Portfolio Includes
+          </div>
+          <div class="tag-cloud" aria-label="Portfolio sections">
+            <span>Projects</span>
+            <span>Experience</span>
+            <span>Skills</span>
+            <span>Socials</span>
+            <span>Contact</span>
+          </div>
+        </section>
       </div>
-    </div>
+    </aside>
   </div>
 
   <script src="script.js"></script>
