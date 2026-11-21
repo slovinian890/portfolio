@@ -168,6 +168,11 @@ body {
 }
 
 .logo {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+}
+.logo-word {
   font-family: var(--font-display);
   font-style: italic;
   font-weight: 600;
@@ -175,6 +180,23 @@ body {
   letter-spacing: -0.01em;
 }
 .dot-accent { color: var(--lime); }
+
+.logo-mark {
+  width: 30px;
+  height: 30px;
+  flex-shrink: 0;
+  transition: transform .4s var(--ease);
+}
+.logo:hover .logo-mark { transform: rotate(-6deg); }
+.logo-mark-bg { fill: var(--green-900); }
+.logo-mark-ring { stroke: var(--lime); stroke-width: 1.5; }
+.logo-mark-letter {
+  font-family: var(--font-display);
+  font-style: italic;
+  font-weight: 700;
+  font-size: 19px;
+  fill: var(--cream-text);
+}
 
 .nav-links {
   display: flex;
